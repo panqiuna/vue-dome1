@@ -1,10 +1,10 @@
 <template>
-    <div>
-    导航
+    <div class="page">
       <!--跳转路由-->
       <router-view></router-view>
       <!--使用-->
       <MNav></MNav>
+
     </div>
 </template>
 <script>
@@ -16,6 +16,7 @@
   * */
   //引入组件
   import MNav from './components/Nav.vue';
+
     export default {
         data(){
             return {}
