@@ -33,7 +33,29 @@
     }
   }
 </script>
-<style lang="">
-
+<style scoped lang="less">
+nav{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  border-top:2px solid #f5f5f5;
+  background: #fff;
+  display: flex;
+  a{
+    display: flex;
+    flex: 1;
+    flex-direction:column;//上下
+    align-items: center;
+    justify-content: center;
+    i{
+      font-size: 20px;
+    }
+  }
+  .router-link-active{
+    color: #2135ff;
+  }
+}
 </style>
 
